@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея собачек</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <div class="page-content">
+        <h1 class="page-content__title">Галерея собачек</h1>
+        
+        <button id="fetch-button" class="page-content__button">Загрузить собачек</button>
+
+        <div id="loader" class="loader" style="display: none;">
+            <div class="loader__spinner"></div>
+            <p class="loader__text">Ищем лучших собачек...</p>
+        </div>
+
+        <div id="gallery" class="gallery"></div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
